@@ -12,3 +12,15 @@ We are committed to providing a welcoming, inclusive, and harassment-free enviro
 4. Make your changes and test locally using Streamlit.
 5. Create a descriptive pull request adhering to Conventional Commits.
 \n
+### Python Environment Setup
+We recommend using a dedicated virtual environment:
+```bash
+python -m venv venv
+# Windows:
+.\venv\Scripts\activate
+# Linux/macOS:
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+\n
