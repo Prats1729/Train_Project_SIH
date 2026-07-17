@@ -10,3 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initialized CONTRIBUTING.md with setup guide and git workflow.
 - Initialized CHANGELOG.md tracking system architecture and milestones.
 \n
+### Documentation (2026-07-17)
+- Added core system architecture overview and Mermaid component diagram in `docs/ARCHITECTURE.md`.
+- Added Conventional Commits standard to `CONTRIBUTING.md`.
+\n
