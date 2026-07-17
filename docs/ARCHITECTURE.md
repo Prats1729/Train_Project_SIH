@@ -9,3 +9,18 @@ The system is divided into three primary decouple layers:
 2. **Intelligence Layer (`ai/`)**: Feature engineering, delay prediction, and platform allocation classifiers.
 3. **Visualization & Analytics Layer (`dashboard/`)**: Interactive Streamlit GUI, KPI telemetry, and scenario comparisons.
 \n
+### High-Level Component Flow Diagram
+```mermaid
+graph TD
+    A[Streamlit User Controls] -->|Simulation Parameters| B[Simulation Environment]
+    B --> C[Station & Track Resources]
+    B --> D[Train Agents]
+    D -->|State & Telemetry| E{Traffic Controller}
+    E -->|Baseline Heuristics| F[Rule-Based Dispatcher]
+    E -->|Delay Predictions| G[AI Model Manager]
+    G --> H[Platform Allocation Classifier]
+    H -->|Optimized Assignment| B
+    B --> I[KPI Metrics Engine]
+    I --> J[Streamlit Analytics Dashboard]
+```
+\n
