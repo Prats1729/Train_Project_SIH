@@ -24,3 +24,13 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 \n
+## Commit Message Convention
+We enforce the Conventional Commits specification:
+- `feat:` A new feature or capability.
+- `fix:` A bug fix in simulation, AI, or UI.
+- `docs:` Documentation changes only.
+- `style:` Formatting, missing semi-colons, whitespace (no code change).
+- `refactor:` Code restructuring without changing external behavior.
+- `test:` Adding missing tests or correcting existing tests.
+- `perf:` Performance optimizations in simulation loop or models.
+\n
