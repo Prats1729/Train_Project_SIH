@@ -18,3 +18,9 @@ Each train entity models a realistic train service transitioning through discret
 4. **Dwelling**: Train occupies platform; passengers embark/disembark (configurable dwell time).
 5. **Cleared Departure**: Outbound track block is acquired; train departs section.
 \n
+## Station Resource Modeling (`simulation/station.py`)
+Stations are modeled as finite-capacity multi-server queues using `simpy.Resource`:
+- **Platform Resources**: Each platform acts as a mutually exclusive server.
+- **Queueing Discipline**: First-Come, First-Served (FCFS) for baseline; priority-weighted AI dynamic queue for AI mode.
+- **Berthing Constraints**: Trains cannot occupy a platform longer than their designated dwell plus clearing margin.
+\n
