@@ -14,3 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added core system architecture overview and Mermaid component diagram in `docs/ARCHITECTURE.md`.
 - Added Conventional Commits standard to `CONTRIBUTING.md`.
 \n
+### Documentation (2026-07-20)
+- Documented station resource queueing and headway safety constraints in `docs/SIMULATION_ENGINE.md`.
+- Added mathematical formulation of section throughput in `docs/ARCHITECTURE.md`.
+\n
