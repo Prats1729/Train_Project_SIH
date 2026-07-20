@@ -24,3 +24,15 @@ graph TD
     I --> J[Streamlit Analytics Dashboard]
 ```
 \n
+## Mathematical Formulation of Section Throughput
+
+Section capacity $C$ over time window $T$ is governed by:
+$$C = \frac{T}{h_{avg} + t_{clear}} \cdot \eta_{platform}$$
+
+Where:
+- $h_{avg}$: Weighted average minimum headway across train categories.
+- $t_{clear}$: Turnaround and switch-lock release time between departures.
+- $\eta_{platform}$: Platform utilization efficiency factor.
+
+The AI controller maximizes $\eta_{platform}$ by eliminating idle platform gaps caused by cascading delays.
+\n
