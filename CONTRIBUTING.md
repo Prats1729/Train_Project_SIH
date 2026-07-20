@@ -34,3 +34,10 @@ We enforce the Conventional Commits specification:
 - `test:` Adding missing tests or correcting existing tests.
 - `perf:` Performance optimizations in simulation loop or models.
 \n
+## Code Style & Formatting
+- All code must conform to PEP 8 standards.
+- Use explicit type hints for function arguments and return types.
+- Format code using `black` (line length 100).
+- Run `flake8` to detect syntax errors and undefined names.
+- Ensure all docstrings follow Google style conventions.
+\n
