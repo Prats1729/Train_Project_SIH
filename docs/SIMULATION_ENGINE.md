@@ -24,3 +24,8 @@ Stations are modeled as finite-capacity multi-server queues using `simpy.Resourc
 - **Queueing Discipline**: First-Come, First-Served (FCFS) for baseline; priority-weighted AI dynamic queue for AI mode.
 - **Berthing Constraints**: Trains cannot occupy a platform longer than their designated dwell plus clearing margin.
 \n
+### Headway Safety Envelopes
+To enforce railway safety regulations:
+- Minimum Headway Distance: Trains must maintain a minimum time separation of $T_{headway}$ (typically 3 minutes) when traversing the same block section.
+- Deceleration Profiles: Approaching trains encounter caution signals, throttling speed according to braking distance curves.
+\n
