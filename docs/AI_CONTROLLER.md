@@ -27,3 +27,8 @@ The model consumes engineered features derived from real-time simulation state:
 - **Target Variable**: Continuous delay in minutes ($y_{delay} \ge 0$).
 - **Inference Latency**: < 5ms per dispatch event to maintain real-time simulation speed.
 \n
+### Platform Allocation Classifier Specs
+- **Algorithm**: `GradientBoostingClassifier` or `RandomForestClassifier`.
+- **Target Variable**: Discrete platform index $[0, 1, \dots, N_{platforms}-1]$.
+- **Constraint Masking**: Model output probabilities are masked with real-time platform availability to prevent collision assignments.
+\n
