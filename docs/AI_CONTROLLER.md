@@ -17,3 +17,13 @@ The model consumes engineered features derived from real-time simulation state:
 - `active_occupancy_ratio`: Proportion of occupied platforms at target station.
 - `time_of_day_sin`/`time_of_day_cos`: Cyclical temporal encoding.
 \n
+### Delay Prediction Model Specs
+- **Algorithm**: `RandomForestRegressor` from `scikit-learn`.
+- **Hyperparameters**:
+  - `n_estimators`: 100 trees.
+  - `max_depth`: 12.
+  - `min_samples_split`: 4.
+  - `random_state`: 42.
+- **Target Variable**: Continuous delay in minutes ($y_{delay} \ge 0$).
+- **Inference Latency**: < 5ms per dispatch event to maintain real-time simulation speed.
+\n
