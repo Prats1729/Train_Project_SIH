@@ -18,3 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented station resource queueing and headway safety constraints in `docs/SIMULATION_ENGINE.md`.
 - Added mathematical formulation of section throughput in `docs/ARCHITECTURE.md`.
 \n
+### Documentation (2026-07-21)
+- Created `docs/AI_CONTROLLER.md` detailing ML models, feature engineering, and inference pipelines.
+- Added Baseline vs AI comparison matrix in `docs/ARCHITECTURE.md`.
+\n
