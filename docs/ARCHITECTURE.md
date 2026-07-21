@@ -36,3 +36,13 @@ Where:
 
 The AI controller maximizes $\eta_{platform}$ by eliminating idle platform gaps caused by cascading delays.
 \n
+## Controller Paradigm Comparison
+
+| Feature | Baseline Heuristic Controller | AI-Powered Controller |
+| :--- | :--- | :--- |
+| **Platform Assignment** | Fixed timetable pre-assignment | Dynamic predicted availability |
+| **Delay Response** | Reactive First-Come First-Served | Predictive proactive re-routing |
+| **Priority Handling** | Static FIFO queueing | Dynamic priority-weighted penalty function |
+| **Deadlock Mitigation** | Timeout backoff heuristic | Lookahead path conflict detection |
+| **Incident Recovery** | Linear propagation of delays | Fast localized absorption |
+\n
