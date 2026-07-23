@@ -15,3 +15,13 @@ The interactive dashboard (`app.py`, `dashboard/ui.py`) provides railway control
   - Interactive charts (Gantt timetable, delay distribution, platform heatmaps).
   - Decision audit log table.
 \n
+### Configuration Parameter Reference
+
+| Parameter | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `num_trains` | Integer | `50` | Total train trips scheduled in the 24-hour simulation window. |
+| `platforms_b` | Integer | `3` | Total available berthing platforms at destination station B. |
+| `delay_prob` | Float | `0.30` | Probability of synthetic perturbation injected at departure. |
+| `max_delay_minutes` | Integer | `45` | Maximum synthetic delay added to perturbed services. |
+| `disaster_mode` | Boolean | `False` | Simulates sudden track failure and emergency bottleneck. |
+\n
