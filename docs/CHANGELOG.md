@@ -22,3 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Created `docs/AI_CONTROLLER.md` detailing ML models, feature engineering, and inference pipelines.
 - Added Baseline vs AI comparison matrix in `docs/ARCHITECTURE.md`.
 \n
+### Documentation (2026-07-23)
+- Created `docs/DASHBOARD_GUIDE.md` outlining UI components, layout design, and parameter specs.
+\n
