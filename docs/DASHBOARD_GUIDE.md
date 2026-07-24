@@ -35,3 +35,9 @@ The platform calculates four primary quantitative KPIs:
 3. **Section Throughput (trains/day):** Total count of safely cleared trains.
 4. **Platform Utilization (%):** Total active dwell time divided by total platform operating capacity.
 \n
+## Visualization Modules (`dashboard/graphs.py`)
+
+- **Timetable String Chart (Gantt)**: Plots train position against simulation time. Slopes reflect train velocities; horizontal segments illustrate dwell times.
+- **Delay Delta Histogram**: Compares Baseline vs AI delay distribution, showing how the AI model shifts the distribution toward zero delay.
+- **Platform Occupancy Heatmap**: Highlights peak utilization hours to identify bottlenecks before cascading delays occur.
+\n
