@@ -25,3 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Documentation (2026-07-23)
 - Created `docs/DASHBOARD_GUIDE.md` outlining UI components, layout design, and parameter specs.
 \n
+### Documentation (2026-07-24)
+- Documented mathematical KPI definitions and Plotly visualization modules in `docs/DASHBOARD_GUIDE.md`.
+- Initialized `docs/TESTING.md` outlining testing philosophy and test suite layout.
+\n
