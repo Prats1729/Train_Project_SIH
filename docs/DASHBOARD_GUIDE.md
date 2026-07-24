@@ -41,3 +41,12 @@ The platform calculates four primary quantitative KPIs:
 - **Delay Delta Histogram**: Compares Baseline vs AI delay distribution, showing how the AI model shifts the distribution toward zero delay.
 - **Platform Occupancy Heatmap**: Highlights peak utilization hours to identify bottlenecks before cascading delays occur.
 \n
+## Decision Audit Log Table (`dashboard/tables.py`)
+Each AI dispatch decision is recorded with complete audit metadata:
+- `timestamp`: Simulation epoch of decision event.
+- `train_id`: Target train identifier (e.g., `TRN_12042`).
+- `predicted_delay`: ML forecasted delay in minutes.
+- `allocated_platform`: Selected platform berth index.
+- `alternative_platforms`: Candidate platforms considered.
+- `reason`: Heuristic or probabilistic rationale for the allocation.
+\n
