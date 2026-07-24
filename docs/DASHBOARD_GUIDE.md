@@ -25,3 +25,13 @@ The interactive dashboard (`app.py`, `dashboard/ui.py`) provides railway control
 | `max_delay_minutes` | Integer | `45` | Maximum synthetic delay added to perturbed services. |
 | `disaster_mode` | Boolean | `False` | Simulates sudden track failure and emergency bottleneck. |
 \n
+## Key Performance Indicators (KPIs) (`dashboard/kpi.py`)
+
+The platform calculates four primary quantitative KPIs:
+1. **Punctuality Rate (%):**
+   $$\text{Punctuality} = \frac{N_{\text{arrival delay} \le 5\text{ min}}}{N_{\text{total trains}}} \times 100$$
+2. **Average Arrival Delay (min):**
+   $$\bar{D} = \frac{1}{N} \sum_{i=1}^{N} \max(0, t_{actual, i} - t_{scheduled, i})$$
+3. **Section Throughput (trains/day):** Total count of safely cleared trains.
+4. **Platform Utilization (%):** Total active dwell time divided by total platform operating capacity.
+\n
