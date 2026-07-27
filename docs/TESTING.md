@@ -19,3 +19,9 @@ Railway simulation systems require strict verification because invalid state tra
 - **Objective**: Verify no two trains occupy the same platform concurrently.
 - **Assertion**: For all time intervals, $\sum \text{Occupants}(P_k) \le 1$.
 \n
+### KPI Mathematical Invariant Tests
+- **Punctuality Range**: $0 \le \text{Punctuality} \le 100$.
+- **Delay Non-negativity**: Average delay must always be $\ge 0.0$.
+- **Throughput Conservation**: Total cleared trains cannot exceed total scheduled trains.
+- **Capacity Bounds**: Platform utilization percentage cannot exceed 100% over the simulation duration.
+\n
