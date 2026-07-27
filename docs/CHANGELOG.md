@@ -29,3 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented mathematical KPI definitions and Plotly visualization modules in `docs/DASHBOARD_GUIDE.md`.
 - Initialized `docs/TESTING.md` outlining testing philosophy and test suite layout.
 \n
+### Documentation (2026-07-27)
+- Added headway safety and KPI invariant unit test specifications to `docs/TESTING.md`.
+- Initialized `docs/ROADMAP.md` covering Phase 1 milestones and Phase 2 enhancements.
+\n
