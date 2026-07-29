@@ -18,3 +18,9 @@
 - [ ] Gym/Gymnasium environment wrapper around the SimPy simulation core.
 - [ ] Benchmarking DRL policies against mixed-integer linear programming (MILP) solvers.
 \n
+## Phase 4: Multi-Station Network Topology
+- [ ] Expand simulation from single section/station to multi-station divisional corridors.
+- [ ] Model interlocking junctions, loop lines, and diamond crossings.
+- [ ] Simulate bi-directional single line sections with dynamic passing loops.
+- [ ] Automatic token block section signalling protocols.
+\n
