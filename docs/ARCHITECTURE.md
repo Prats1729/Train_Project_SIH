@@ -46,3 +46,12 @@ The AI controller maximizes $\eta_{platform}$ by eliminating idle platform gaps 
 | **Deadlock Mitigation** | Timeout backoff heuristic | Lookahead path conflict detection |
 | **Incident Recovery** | Linear propagation of delays | Fast localized absorption |
 \n
+## Deadlock Prevention & Conflict Resolution
+
+In dense railway networks, mutual waiting conditions (train A holding block 1 waiting for block 2, while train B holds block 2 waiting for block 1) cause deadlocks.
+
+### Prevention Strategy
+1. **Hierarchical Resource Ordering**: Block sections are ordered strictly along travel vectors.
+2. **Lookahead Windowing**: Trains cannot enter a critical junction zone unless the destination block and platform are reserved.
+3. **Deadlock Detection Timeout**: The simulation detects if two agents remain stationary for $> 15$ simulation minutes and triggers preemptive AI re-routing.
+\n
