@@ -24,3 +24,9 @@
 - [ ] Simulate bi-directional single line sections with dynamic passing loops.
 - [ ] Automatic token block section signalling protocols.
 \n
+## Phase 5: Real-World Indian Railways Timetable Ingestion
+- [ ] Ingest National Train Enquiry System (NTES) and GTFS transit feeds.
+- [ ] Support realistic train compositions: Rajdhani, Shatabdi, Vande Bharat, goods trains.
+- [ ] Calibrate delay distributions against historical zonal delay data.
+- [ ] Support seasonal weather impact modeling (dense fog speed restrictions).
+\n
