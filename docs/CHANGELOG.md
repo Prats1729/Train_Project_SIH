@@ -33,3 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added headway safety and KPI invariant unit test specifications to `docs/TESTING.md`.
 - Initialized `docs/ROADMAP.md` covering Phase 1 milestones and Phase 2 enhancements.
 \n
+### Documentation (2026-07-29)
+- Added Phase 3, 4, and 5 specifications to `docs/ROADMAP.md`.
+- Documented deadlock avoidance and disaster mode failure injection in `docs/ARCHITECTURE.md`.
+\n
