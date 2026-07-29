@@ -55,3 +55,12 @@ In dense railway networks, mutual waiting conditions (train A holding block 1 wa
 2. **Lookahead Windowing**: Trains cannot enter a critical junction zone unless the destination block and platform are reserved.
 3. **Deadlock Detection Timeout**: The simulation detects if two agents remain stationary for $> 15$ simulation minutes and triggers preemptive AI re-routing.
 \n
+## Disaster Mode & Resiliency Architecture
+
+Disaster Mode simulates high-stress operational contingencies:
+- **Track Failure**: An entire platform or incoming track block is taken offline abruptly.
+- **Signal Disruption**: Manual caution speeds imposed across critical sections ($15\text{ km/h}$ limit).
+- **Controller Reaction**:
+  - Baseline controller queues all approaching trains, causing cascading gridlock.
+  - AI controller anticipates the blockage, diverts trains to secondary loop tracks, and reschedules low-priority freight to hold at upstream loops.
+\n
