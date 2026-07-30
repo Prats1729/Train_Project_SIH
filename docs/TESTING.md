@@ -32,3 +32,7 @@ Railway simulation systems require strict verification because invalid state tra
 - **Evaluation**: Verify simulation completes without unhandled exceptions or infinite event loops.
 - **Pass Criteria**: All 150 train entities transition to `Departed` state within finite simulation time.
 \n
+### Single Platform Bottleneck Test
+- **Input**: Simulate station with `platforms_b = 1` and 20 trains.
+- **Evaluation**: Verifies that the queueing system degrades gracefully and queues strictly in FIFO order under the baseline controller, while prioritizing Tier 1 trains under the AI controller.
+\n
