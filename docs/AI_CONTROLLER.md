@@ -39,3 +39,8 @@ In real-world traffic management systems (TMS), dispatch recommendations must co
 - **Batch Rescheduling Latency (50 trains)**: $48\text{ ms}$.
 - **Memory Footprint**: Model binaries occupy $< 15\text{ MB}$ RAM, enabling edge deployment on signaling workstation hardware.
 \n
+### Heuristic Fallback Safety Net
+To guarantee operational safety in production:
+- If model prediction confidence drops below threshold $\tau = 0.65$, or if the AI controller predicts an already-occupied platform, the system triggers the **Deterministic Safety Fallback Rule**.
+- The fallback rule chooses the lowest-indexed platform that is vacant and clear of inbound conflict envelopes.
+\n
