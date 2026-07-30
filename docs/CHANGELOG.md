@@ -37,3 +37,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Phase 3, 4, and 5 specifications to `docs/ROADMAP.md`.
 - Documented deadlock avoidance and disaster mode failure injection in `docs/ARCHITECTURE.md`.
 \n
+## [0.8.0] - 2026-07-30
+### Added
+- Stochastic delay perturbation modeling via Weibull distributions in `docs/SIMULATION_ENGINE.md`.
+- Train priority classifications and overtaking dynamics in `docs/SIMULATION_ENGINE.md`.
+- Real-time decision latency benchmarks and heuristic fallback mechanisms in `docs/AI_CONTROLLER.md`.
+- High density stress test and bottleneck verification procedures in `docs/TESTING.md`.
+\n
