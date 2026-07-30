@@ -37,3 +37,11 @@ $$f(x; \lambda, k) = \frac{k}{\lambda} \left(\frac{x}{\lambda}\right)^{k-1} e^{-
 
 Where shape parameter $k = 1.3$ models the skewness typical of railway operational delays (many small delays, infrequent severe delays).
 \n
+### Train Priority Classes & Overtaking Dynamics
+
+Trains are classified into four operational priority tiers:
+1. **Tier 1 (Vande Bharat / Rajdhani Express)**: Highest speed profile ($130\text{ km/h}$), absolute right-of-way.
+2. **Tier 2 (Mail / Express)**: Standard passenger speed profile ($110\text{ km/h}$).
+3. **Tier 3 (Passenger / EMU Shuttle)**: High stop frequency, lower priority.
+4. **Tier 4 (Freight / Goods)**: Heavy axle load, lower acceleration ($75\text{ km/h}$ max speed), holds in loop sidings during overtakes.
+\n
