@@ -29,3 +29,11 @@ To enforce railway safety regulations:
 - Minimum Headway Distance: Trains must maintain a minimum time separation of $T_{headway}$ (typically 3 minutes) when traversing the same block section.
 - Deceleration Profiles: Approaching trains encounter caution signals, throttling speed according to braking distance curves.
 \n
+## Stochastic Perturbation Modeling
+
+Real railway delays exhibit heavy-tailed distributions rather than pure Gaussian noise. The simulator models arrival perturbations using Weibull and Log-Normal probability density functions:
+
+$$f(x; \lambda, k) = \frac{k}{\lambda} \left(\frac{x}{\lambda}\right)^{k-1} e^{-(x/\lambda)^k}$$
+
+Where shape parameter $k = 1.3$ models the skewness typical of railway operational delays (many small delays, infrequent severe delays).
+\n
