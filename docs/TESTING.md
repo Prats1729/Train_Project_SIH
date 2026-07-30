@@ -25,3 +25,10 @@ Railway simulation systems require strict verification because invalid state tra
 - **Throughput Conservation**: Total cleared trains cannot exceed total scheduled trains.
 - **Capacity Bounds**: Platform utilization percentage cannot exceed 100% over the simulation duration.
 \n
+## Stress Testing & Bottleneck Scenarios
+
+### High Density Congestion Stress Test
+- **Input**: 150 trains injected into a 24-hour simulation window across 3 platforms.
+- **Evaluation**: Verify simulation completes without unhandled exceptions or infinite event loops.
+- **Pass Criteria**: All 150 train entities transition to `Departed` state within finite simulation time.
+\n
