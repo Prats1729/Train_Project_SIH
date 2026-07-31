@@ -50,3 +50,10 @@ Each AI dispatch decision is recorded with complete audit metadata:
 - `alternative_platforms`: Candidate platforms considered.
 - `reason`: Heuristic or probabilistic rationale for the allocation.
 \n
+## What-If Scenario Analysis Workflow
+
+The simulator allows dispatchers and planners to test hypothetical operating scenarios:
+1. **Platform Capacity Sizing**: Compare throughput when adding a 4th or 5th platform to Station B.
+2. **Speed Restriction Impact**: Evaluate punctuality collapse under temporary $30\text{ km/h}$ speed restrictions.
+3. **Traffic Mix Sensitivity**: Assess the impact of increasing freight proportion from 10% to 40% on passenger punctuality.
+\n
