@@ -57,3 +57,9 @@ The simulator allows dispatchers and planners to test hypothetical operating sce
 2. **Speed Restriction Impact**: Evaluate punctuality collapse under temporary $30\text{ km/h}$ speed restrictions.
 3. **Traffic Mix Sensitivity**: Assess the impact of increasing freight proportion from 10% to 40% on passenger punctuality.
 \n
+## Troubleshooting Common Dashboard Issues
+
+- **Streamlit Port Collision**: If port `8501` is occupied, launch with `streamlit run app.py --server.port 8502`.
+- **Session State Cache Reset**: Click the 'R' key in browser or use the sidebar cache clear button to re-initialize model parameters.
+- **Memory Consumption with Large Train Counts**: For runs exceeding 200 trains, run headless or increase browser RAM allocation.
+\n
