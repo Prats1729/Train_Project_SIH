@@ -41,3 +41,11 @@ We enforce the Conventional Commits specification:
 - Run `flake8` to detect syntax errors and undefined names.
 - Ensure all docstrings follow Google style conventions.
 \n
+## Pull Request Review Checklist
+Before requesting review, ensure your branch satisfies:
+- [ ] Code runs cleanly with `streamlit run app.py`.
+- [ ] No regression in KPI calculation correctness.
+- [ ] All new functions have clear docstrings and type annotations.
+- [ ] Relevant documentation in `docs/` is updated.
+- [ ] Commit history is clean and follows Conventional Commits.
+\n
