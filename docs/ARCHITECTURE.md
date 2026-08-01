@@ -71,3 +71,10 @@ Primary delays (e.g., rolling stock faults, track maintenance) frequently trigge
 - **Platform Occupation Starvation**: If train $A$ overstays its platform dwell, train $B$ must hold in the outer loop, blocking the main through-line.
 - **AI Dampening Effect**: By proactively assigning train $B$ to an alternate siding before it reaches the outer signal, the AI controller prevents the through-line from locking.
 \n
+### Mathematical Formulation of Buffer Time ($B_{margin}$)
+To absorb minor perturbations, timetables incorporate schedule recovery margins:
+$$B_{margin} = t_{scheduled\_dwell} - t_{minimum\_dwell}$$
+
+When primary delay $D_{primary} \le B_{margin}$, the delay is fully absorbed within the station dwell. When $D_{primary} > B_{margin}$, the unabsorbed delay propagates downstream:
+$$D_{downstream} = \max(0, D_{primary} - B_{margin})$$
+\n
