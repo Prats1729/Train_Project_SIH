@@ -64,3 +64,10 @@ Disaster Mode simulates high-stress operational contingencies:
   - Baseline controller queues all approaching trains, causing cascading gridlock.
   - AI controller anticipates the blockage, diverts trains to secondary loop tracks, and reschedules low-priority freight to hold at upstream loops.
 \n
+## Delay Propagation Physics & Knock-on Effect Modeling
+
+Primary delays (e.g., rolling stock faults, track maintenance) frequently trigger secondary "knock-on" delays across adjacent services:
+- **Headway Propagation**: A delayed train forces following trains to encounter amber/red aspects, triggering reactive braking.
+- **Platform Occupation Starvation**: If train $A$ overstays its platform dwell, train $B$ must hold in the outer loop, blocking the main through-line.
+- **AI Dampening Effect**: By proactively assigning train $B$ to an alternate siding before it reaches the outer signal, the AI controller prevents the through-line from locking.
+\n
