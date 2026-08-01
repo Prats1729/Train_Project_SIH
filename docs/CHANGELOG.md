@@ -49,3 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added PR review checklist in `CONTRIBUTING.md`.
 - Concluded July documentation sprint with comprehensive architectural and operational coverage.
 \n
+### Documentation (2026-08-01)
+- Documented knock-on delay propagation physics and buffer absorption equations in `docs/ARCHITECTURE.md`.
+- Kicked off August technical enhancement and operational verification sprint.
+\n
