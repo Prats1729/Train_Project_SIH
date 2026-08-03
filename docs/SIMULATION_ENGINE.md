@@ -45,3 +45,11 @@ Trains are classified into four operational priority tiers:
 3. **Tier 3 (Passenger / EMU Shuttle)**: High stop frequency, lower priority.
 4. **Tier 4 (Freight / Goods)**: Heavy axle load, lower acceleration ($75\text{ km/h}$ max speed), holds in loop sidings during overtakes.
 \n
+## Train Dynamics & Speed Profiling
+
+Train movements incorporate physical acceleration, cruising, and braking regimes:
+- **Tractive Acceleration**: Approximated by constant acceleration $a = 0.5\text{ m/s}^2$ up to cruising velocity $v_{max}$.
+- **Service Braking**: Deceleration $d = -0.6\text{ m/s}^2$ approaching caution signals or platform stops.
+- **Dwell Time Calculation**:
+  $$t_{dwell} = t_{base\_dwell} + \Delta t_{passenger\_density}$$
+\n
