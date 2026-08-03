@@ -53,3 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented knock-on delay propagation physics and buffer absorption equations in `docs/ARCHITECTURE.md`.
 - Kicked off August technical enhancement and operational verification sprint.
 \n
+### Documentation (2026-08-03)
+- Documented train acceleration dynamics and switch interlocking mechanics in `docs/SIMULATION_ENGINE.md`.
+- Documented hyperparameter tuning methodology and cross-validation results in `docs/AI_CONTROLLER.md`.
+\n
