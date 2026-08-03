@@ -53,3 +53,8 @@ Train movements incorporate physical acceleration, cruising, and braking regimes
 - **Dwell Time Calculation**:
   $$t_{dwell} = t_{base\_dwell} + \Delta t_{passenger\_density}$$
 \n
+### Junction Routing & Switch Clearances
+At station approaches, points and track switches require mechanical clearance envelopes:
+- **Route Setting Time**: 15 seconds required for switch motorized throw and interlocking verification.
+- **Switch Locking**: A set route remains locked until the rear bogie of the train clears the fouling point track circuit.
+\n
