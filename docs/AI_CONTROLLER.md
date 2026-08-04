@@ -52,3 +52,10 @@ The delay prediction model was optimized using 5-fold cross-validation (`GridSea
 - `min_samples_leaf`: Tested `[1, 2, 4]`, optimal selected: `2`.
 - Validation MAE: Reduced from $6.2\text{ min}$ to $3.8\text{ min}$ on unseen holdout schedules.
 \n
+## Model Retraining Lifecycle & Data Drift
+
+In production railway deployment, timetable changes and seasonal track maintenance introduce data drift:
+- **Concept Drift**: Increased passenger footfall during festival seasons inflates dwell times.
+- **Retraining Trigger**: Automated retraining executes whenever rolling 7-day MAE exceeds $5.0\text{ min}$.
+- **Cold-Start Handling**: If new stations or platforms are introduced, fallback to rule-based FIFO dispatch until 500 train passes are recorded.
+\n
