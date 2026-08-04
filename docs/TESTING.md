@@ -36,3 +36,11 @@ Railway simulation systems require strict verification because invalid state tra
 - **Input**: Simulate station with `platforms_b = 1` and 20 trains.
 - **Evaluation**: Verifies that the queueing system degrades gracefully and queues strictly in FIFO order under the baseline controller, while prioritizing Tier 1 trains under the AI controller.
 \n
+## Continuous Integration (CI) Workflow
+
+Our CI pipeline executes on every pull request to `main`:
+1. **Linting**: Checks compliance with `flake8` and `black --check`.
+2. **Type Checking**: Validates type signatures with `mypy`.
+3. **Simulation Sanity**: Runs 10 deterministic test simulations across various platform configurations.
+4. **KPI Verifier**: Confirms output metrics are within valid bounds.
+\n
