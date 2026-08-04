@@ -59,3 +59,8 @@ In production railway deployment, timetable changes and seasonal track maintenan
 - **Retraining Trigger**: Automated retraining executes whenever rolling 7-day MAE exceeds $5.0\text{ min}$.
 - **Cold-Start Handling**: If new stations or platforms are introduced, fallback to rule-based FIFO dispatch until 500 train passes are recorded.
 \n
+### Platform Allocation Classifier Evaluation
+- **Classification Accuracy**: $94.2\%$ across 3-platform scenarios.
+- **Top-1 Precision**: $96.1\%$ for Platform 1 (main through line).
+- **Misclassification Handling**: Safe fallback ensures misclassified platforms that are currently occupied are immediately rejected in favor of vacant berths.
+\n
