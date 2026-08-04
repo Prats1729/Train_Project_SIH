@@ -63,3 +63,10 @@ The simulator allows dispatchers and planners to test hypothetical operating sce
 - **Session State Cache Reset**: Click the 'R' key in browser or use the sidebar cache clear button to re-initialize model parameters.
 - **Memory Consumption with Large Train Counts**: For runs exceeding 200 trains, run headless or increase browser RAM allocation.
 \n
+## Telemetry Export Capabilities
+
+The dashboard supports exporting full simulation run artifacts:
+- **CSV Log Export**: Complete tabular logs of train arrival, departure, and delay metrics.
+- **JSON Decision Telemetry**: Structured JSON array of all AI controller allocation decisions.
+- **KPI Summary Report**: Plain-text and markdown export summarizing comparative punctuality gains.
+\n
