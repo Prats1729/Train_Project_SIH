@@ -57,3 +57,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented train acceleration dynamics and switch interlocking mechanics in `docs/SIMULATION_ENGINE.md`.
 - Documented hyperparameter tuning methodology and cross-validation results in `docs/AI_CONTROLLER.md`.
 \n
+### Documentation (2026-08-04)
+- Documented model retraining lifecycle and classification performance in `docs/AI_CONTROLLER.md`.
+- Documented telemetry export capabilities in `docs/DASHBOARD_GUIDE.md`.
+- Documented CI pipeline and automated test matrix in `docs/TESTING.md`.
+\n
