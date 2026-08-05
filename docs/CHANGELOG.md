@@ -62,3 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented telemetry export capabilities in `docs/DASHBOARD_GUIDE.md`.
 - Documented CI pipeline and automated test matrix in `docs/TESTING.md`.
 \n
+### Documentation (2026-08-05)
+- Documented subsystem modular directory tree and interface protocols in `docs/ARCHITECTURE.md`.
+- Added passenger exchange dwell models and siding overtaking protocols in `docs/SIMULATION_ENGINE.md`.
+- Added Phase 6 wayside edge deployment vision to `docs/ROADMAP.md`.
+\n
