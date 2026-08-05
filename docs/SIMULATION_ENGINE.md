@@ -58,3 +58,11 @@ At station approaches, points and track switches require mechanical clearance en
 - **Route Setting Time**: 15 seconds required for switch motorized throw and interlocking verification.
 - **Switch Locking**: A set route remains locked until the rear bogie of the train clears the fouling point track circuit.
 \n
+### Passenger Exchange Dwell Modeling
+Dwell times scale with station passenger footfall and train capacity:
+$$t_{dwell} = t_{door\_open} + \max\left(\frac{N_{alighting}}{r_{alight}}, \frac{N_{boarding}}{r_{board}}\right) + t_{dispatch\_bell}$$
+
+Where:
+- $r_{alight} \approx 1.2\text{ passengers/door/sec}$.
+- $r_{board} \approx 0.8\text{ passengers/door/sec}$.
+\n
