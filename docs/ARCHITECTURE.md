@@ -78,3 +78,25 @@ $$B_{margin} = t_{scheduled\_dwell} - t_{minimum\_dwell}$$
 When primary delay $D_{primary} \le B_{margin}$, the delay is fully absorbed within the station dwell. When $D_{primary} > B_{margin}$, the unabsorbed delay propagates downstream:
 $$D_{downstream} = \max(0, D_{primary} - B_{margin})$$
 \n
+## Subsystem Modular Decomposition
+
+The codebase decouples concerns cleanly across python packages:
+```
+Train_Project_SIH/
+├── ai/                     # Machine learning models & feature extraction
+│   ├── features.py         # Tabular feature transformation
+│   └── model.py            # Model training & inference wrapper (AIManager)
+├── simulation/             # Discrete-event engine core
+│   ├── env.py              # SimPy environment loop & runner
+│   ├── station.py          # Station & platform resource representation
+│   ├── train.py            # Train agent behavior & state machine
+│   ├── controller.py       # Baseline heuristic controller
+│   └── ai_controller.py    # AI-guided dynamic dispatch controller
+├── dashboard/              # Streamlit front-end
+│   ├── ui.py               # Layout components & parameter sidebar
+│   ├── kpi.py              # Statistical KPI aggregation
+│   ├── graphs.py           # Plotly charts (Gantt, histograms)
+│   └── tables.py           # Decision tables & audit viewer
+├── app.py                  # Main application entry point
+```
+\n
