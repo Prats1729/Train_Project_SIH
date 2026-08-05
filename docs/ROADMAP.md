@@ -30,3 +30,8 @@
 - [ ] Calibrate delay distributions against historical zonal delay data.
 - [ ] Support seasonal weather impact modeling (dense fog speed restrictions).
 \n
+## Phase 6: Wayside Edge Computing Deployment
+- [ ] Containerize AI Controller into lightweight Docker containers (< 100MB).
+- [ ] Optimize models with ONNX Runtime for deployment on NVIDIA Jetson / Raspberry Pi wayside edge nodes.
+- [ ] Support MQTT / OPC-UA protocols for direct hardware PLC interfacing.
+\n
