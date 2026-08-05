@@ -100,3 +100,9 @@ Train_Project_SIH/
 ├── app.py                  # Main application entry point
 ```
 \n
+### Inter-Module Communication Interface
+- **Simulation -> Controller**: Passes current simulation clock `env.now`, train instance, and station availability dictionary.
+- **Controller -> Simulation**: Returns allocated platform integer and dispatch clearance timestamp.
+- **Simulation -> KPI Engine**: Outputs completed Pandas DataFrame log of all events.
+- **KPI Engine -> Dashboard**: Returns Python dictionary of calculated KPIs.
+\n
