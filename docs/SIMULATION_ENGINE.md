@@ -66,3 +66,10 @@ Where:
 - $r_{alight} \approx 1.2\text{ passengers/door/sec}$.
 - $r_{board} \approx 0.8\text{ passengers/door/sec}$.
 \n
+### Multi-Track Section Overtaking Protocol
+When high-priority Express trains approach low-priority Freight trains:
+1. Distance-to-confluence check: AI detects if trailing Express is within 15 km.
+2. Signal loop entry: Preceding Freight is routed into siding loop line at kilometer marker 24.
+3. Express through clearance: Main line aspect remains clear green.
+4. Freight re-entry: Freight resumes journey once the Express clears the forward block.
+\n
