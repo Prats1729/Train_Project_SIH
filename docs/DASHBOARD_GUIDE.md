@@ -77,3 +77,9 @@ When Disaster Mode is engaged:
 - **Incident Telemetry Box**: Displays failed block ID, failure duration, and number of impacted train paths.
 - **Mitigation Statistics**: Displays real-time delta of trains rerouted by AI vs stuck under baseline rule.
 \n
+### Dashboard Theming & Visual Aesthetics
+The dashboard uses custom CSS styling injected via `st.markdown(..., unsafe_allow_html=True)`:
+- High contrast dark mode tailored for railway operational display screens.
+- Color-coded KPI chips: Green for punctuality $> 85\%$, Yellow for $70-85\%$, Red for $< 70\%$.
+- Styled metric cards with subtle box shadows and border radiuses.
+\n
