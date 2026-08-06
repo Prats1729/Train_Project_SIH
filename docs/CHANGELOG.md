@@ -67,3 +67,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added passenger exchange dwell models and siding overtaking protocols in `docs/SIMULATION_ENGINE.md`.
 - Added Phase 6 wayside edge deployment vision to `docs/ROADMAP.md`.
 \n
+### Documentation (2026-08-06)
+- Documented disaster mode visual alert system and CSS theming in `docs/DASHBOARD_GUIDE.md`.
+\n
