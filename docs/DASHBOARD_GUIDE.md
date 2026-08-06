@@ -70,3 +70,10 @@ The dashboard supports exporting full simulation run artifacts:
 - **JSON Decision Telemetry**: Structured JSON array of all AI controller allocation decisions.
 - **KPI Summary Report**: Plain-text and markdown export summarizing comparative punctuality gains.
 \n
+## Disaster Mode Alerts & Incident Telemetry
+
+When Disaster Mode is engaged:
+- **Visual Alert Banner**: A prominent warning banner appears at the top of the dashboard.
+- **Incident Telemetry Box**: Displays failed block ID, failure duration, and number of impacted train paths.
+- **Mitigation Statistics**: Displays real-time delta of trains rerouted by AI vs stuck under baseline rule.
+\n
