@@ -50,3 +50,6 @@ Whenever `AIManager` model code or feature engineering logic is modified:
 - `tests/test_model_regression.py` validates that MAE on the canonical test partition does not exceed $4.2\text{ minutes}$.
 - Verifies that model serialization via `pickle` or `joblib` produces bit-compatible inference outputs.
 \n
+### Mock Environment for Headless Testing
+- To facilitate automated testing in headless CI environments without Streamlit, `tests/mocks.py` provides a stubbed progress bar and configuration dictionary matching `dashboard/ui.py`.
+\n
