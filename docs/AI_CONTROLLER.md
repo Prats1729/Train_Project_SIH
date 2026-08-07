@@ -64,3 +64,9 @@ In production railway deployment, timetable changes and seasonal track maintenan
 - **Top-1 Precision**: $96.1\%$ for Platform 1 (main through line).
 - **Misclassification Handling**: Safe fallback ensures misclassified platforms that are currently occupied are immediately rejected in favor of vacant berths.
 \n
+## Training Dataset Generation (`data/historical.csv`)
+
+The historical training dataset is synthesized by running 1,000 Monte Carlo baseline simulation episodes with randomized delay perturbations:
+- Total Samples: 25,000 historical train dispatch instances.
+- Columns: `train_id`, `type`, `scheduled_arrival`, `actual_arrival`, `initial_delay`, `platform_assigned`, `dwell_duration`, `final_delay`.
+\n
