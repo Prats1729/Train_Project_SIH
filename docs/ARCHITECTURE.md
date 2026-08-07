@@ -116,3 +116,7 @@ Train_Project_SIH/
 ### Memory Footprint
 - Peak RSS memory remains below $120\text{ MB}$ even during complex 200-train dual simulations.
 \n
+### Concurrency & Streamlit Session State Management
+- In `app.py`, `@st.cache_resource` caches the instantiated `AIManager` instance across reruns.
+- The simulation results dictionary is held in `st.session_state.simulation_results`, preventing redundant re-simulations when interacting with charts.
+\n
