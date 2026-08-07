@@ -44,3 +44,9 @@ Our CI pipeline executes on every pull request to `main`:
 3. **Simulation Sanity**: Runs 10 deterministic test simulations across various platform configurations.
 4. **KPI Verifier**: Confirms output metrics are within valid bounds.
 \n
+## Regression Testing Framework
+
+Whenever `AIManager` model code or feature engineering logic is modified:
+- `tests/test_model_regression.py` validates that MAE on the canonical test partition does not exceed $4.2\text{ minutes}$.
+- Verifies that model serialization via `pickle` or `joblib` produces bit-compatible inference outputs.
+\n
