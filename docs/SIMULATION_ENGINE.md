@@ -73,3 +73,11 @@ When high-priority Express trains approach low-priority Freight trains:
 3. Express through clearance: Main line aspect remains clear green.
 4. Freight re-entry: Freight resumes journey once the Express clears the forward block.
 \n
+## Synthetic Timetable Generator
+
+The generator creates realistic daily train patterns:
+- **Morning Peak Window (07:00 - 10:30)**: High frequency suburban shuttles and intercity expresses (headway 4-6 mins).
+- **Midday Lull (11:00 - 15:30)**: Lower passenger frequency, allocated freight slots.
+- **Evening Peak Window (16:30 - 20:30)**: Secondary passenger rush hour.
+- **Night Window (21:00 - 05:00)**: Long-distance mail/express and bulk freight haulage.
+\n
