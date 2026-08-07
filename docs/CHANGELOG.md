@@ -70,3 +70,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Documentation (2026-08-06)
 - Documented disaster mode visual alert system and CSS theming in `docs/DASHBOARD_GUIDE.md`.
 \n
+## [0.9.0] - 2026-08-07
+### Added
+- Time complexity, memory footprint, and session caching analysis in `docs/ARCHITECTURE.md`.
+- Synthetic timetable generation algorithms in `docs/SIMULATION_ENGINE.md`.
+- Historical training data schema in `docs/AI_CONTROLLER.md`.
+- Headless mock testing utilities and model regression test framework in `docs/TESTING.md`.
+\n
