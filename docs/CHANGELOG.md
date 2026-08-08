@@ -77,3 +77,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Historical training data schema in `docs/AI_CONTROLLER.md`.
 - Headless mock testing utilities and model regression test framework in `docs/TESTING.md`.
 \n
+### Documentation (2026-08-08)
+- Added branch naming and release tagging protocol to `CONTRIBUTING.md`.
+\n
