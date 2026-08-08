@@ -49,3 +49,10 @@ Before requesting review, ensure your branch satisfies:
 - [ ] Relevant documentation in `docs/` is updated.
 - [ ] Commit history is clean and follows Conventional Commits.
 \n
+## Branch Naming & Release Protocols
+
+- **Feature Branches**: `feat/<short-description>` (e.g., `feat/add-dqn-agent`).
+- **Bug Fix Branches**: `fix/<bug-description>` (e.g., `fix/platform-collision`).
+- **Documentation Branches**: `docs/<topic>` (e.g., `docs/kpi-equations`).
+- **Release Tags**: Semantic tags `vX.Y.Z` signed with git annotated tags.
+\n
