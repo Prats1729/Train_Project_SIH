@@ -83,3 +83,10 @@ The dashboard uses custom CSS styling injected via `st.markdown(..., unsafe_allo
 - Color-coded KPI chips: Green for punctuality $> 85\%$, Yellow for $70-85\%$, Red for $< 70\%$.
 - Styled metric cards with subtle box shadows and border radiuses.
 \n
+## Live Simulation Execution Feedback
+
+During long simulation runs with large train batches, `app.py` delivers dynamic user feedback:
+- Separate progress bars for Baseline and AI simulation passes.
+- Dynamic status spinner indicating KPI calculation and Plotly figure generation.
+- Clear error notification dialogs if invalid configurations are supplied.
+\n
