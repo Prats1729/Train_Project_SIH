@@ -81,3 +81,11 @@ The generator creates realistic daily train patterns:
 - **Evening Peak Window (16:30 - 20:30)**: Secondary passenger rush hour.
 - **Night Window (21:00 - 05:00)**: Long-distance mail/express and bulk freight haulage.
 \n
+## Four-Aspect Signalling Emulation
+
+The simulator emulates modern Indian Railways four-aspect automatic color-light signalling:
+1. **Green (Clear)**: Train proceeds at maximum authorized line speed ($v_{max}$).
+2. **Double Yellow (Attention)**: Train prepares to reduce speed to pass the next signal at restricted speed.
+3. **Yellow (Caution)**: Train decelerates to enter the platform or prepares to stop at the next red aspect.
+4. **Red (Danger)**: Train must stop completely before the signal footprint.
+\n
