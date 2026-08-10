@@ -120,3 +120,15 @@ Train_Project_SIH/
 - In `app.py`, `@st.cache_resource` caches the instantiated `AIManager` instance across reruns.
 - The simulation results dictionary is held in `st.session_state.simulation_results`, preventing redundant re-simulations when interacting with charts.
 \n
+## Platform Capacity Utilization Analysis
+
+Platform capacity utilization factor $U_p$ measures the operational load across station berthing tracks:
+$$U_p = \frac{\sum_{i=1}^{M} t_{dwell, i}}{K \cdot T_{total}} \times 100\%$$
+
+Where:
+- $M$: Total trains berthed.
+- $K$: Number of available platforms.
+- $T_{total}$: Duration of the simulation horizon ($1440\text{ minutes}$).
+
+An ideal operating envelope lies between $65\% \le U_p \le 85\%$. Below $65\%$, infrastructure is underutilized; above $85\%$, the probability of knock-on gridlock rises exponentially.
+\n
