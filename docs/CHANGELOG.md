@@ -80,3 +80,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Documentation (2026-08-08)
 - Added branch naming and release tagging protocol to `CONTRIBUTING.md`.
 \n
+### Documentation (2026-08-10)
+- Documented platform capacity bounds in `docs/ARCHITECTURE.md`.
+- Added four-aspect signalling specifications in `docs/SIMULATION_ENGINE.md`.
+- Documented feature importance rankings in `docs/AI_CONTROLLER.md`.
+- Documented progress feedback UI in `docs/DASHBOARD_GUIDE.md`.
+\n
