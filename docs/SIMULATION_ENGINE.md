@@ -89,3 +89,10 @@ The simulator emulates modern Indian Railways four-aspect automatic color-light 
 3. **Yellow (Caution)**: Train decelerates to enter the platform or prepares to stop at the next red aspect.
 4. **Red (Danger)**: Train must stop completely before the signal footprint.
 \n
+### Terminal Rake Turnaround Mechanics
+At terminus platforms, rolling stock requires mandatory turnaround procedures:
+- Locomotive decoupling or cab changeover ($15-20\text{ minutes}$).
+- Safety inspection and air brake continuity test ($10\text{ minutes}$).
+- Water refilling and cabin cleaning ($20-30\text{ minutes}$).
+The simulator respects these minimum turnaround bounds before re-dispatching trains as outbound services.
+\n
