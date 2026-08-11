@@ -86,3 +86,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented feature importance rankings in `docs/AI_CONTROLLER.md`.
 - Documented progress feedback UI in `docs/DASHBOARD_GUIDE.md`.
 \n
+### Documentation (2026-08-11)
+- Added eco-driving traction energy calculations in `docs/ARCHITECTURE.md`.
+- Documented terminal rake turnaround cycles in `docs/SIMULATION_ENGINE.md`.
+- Added WebSocket real-time telemetry streaming roadmap in `docs/ROADMAP.md`.
+\n
