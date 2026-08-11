@@ -35,3 +35,8 @@
 - [ ] Optimize models with ONNX Runtime for deployment on NVIDIA Jetson / Raspberry Pi wayside edge nodes.
 - [ ] Support MQTT / OPC-UA protocols for direct hardware PLC interfacing.
 \n
+## Telemetry Streaming via WebSockets (Phase 5 Extension)
+- [ ] Implement an asynchronous WebSocket broadcaster in `simulation/env.py`.
+- [ ] Broadcast real-time GeoJSON train coordinates to an interactive Leaflet/Mapbox front-end.
+- [ ] Enable multiplayer dispatcher mode where human controllers compete against the AI agent.
+\n
