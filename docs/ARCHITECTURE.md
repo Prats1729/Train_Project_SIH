@@ -132,3 +132,10 @@ Where:
 
 An ideal operating envelope lies between $65\% \le U_p \le 85\%$. Below $65\%$, infrastructure is underutilized; above $85\%$, the probability of knock-on gridlock rises exponentially.
 \n
+## Energy Consumption & Eco-Driving Optimization
+
+Unnecessary train braking and restarting caused by signal stops wastes enormous traction energy:
+- **Kinetic Energy Loss**: Halting a 1,500-tonne passenger train from $110\text{ km/h}$ wastes approximately $70\text{ kWh}$ of electrical energy.
+- **AI Speed Smoothing**: By predicting platform availability in advance, the AI controller commands a gentle coasting deceleration rather than a full stop-and-start.
+- **Energy Metric**: The simulator estimates traction kilowatt-hours saved by avoiding red signal halts.
+\n
