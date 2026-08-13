@@ -90,3 +90,10 @@ During long simulation runs with large train batches, `app.py` delivers dynamic 
 - Dynamic status spinner indicating KPI calculation and Plotly figure generation.
 - Clear error notification dialogs if invalid configurations are supplied.
 \n
+## Multi-Run Scenario Comparison & Reporting
+
+The dashboard provides a dedicated comparative tab:
+- Side-by-side comparison of up to 5 experimental runs with different configurations.
+- Automatic Delta Calculation: Percentage improvement in punctuality and delay reduction.
+- One-click export of comparison tables to Microsoft Excel (`.xlsx`) format.
+\n
