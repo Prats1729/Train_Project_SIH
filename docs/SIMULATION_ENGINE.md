@@ -96,3 +96,10 @@ At terminus platforms, rolling stock requires mandatory turnaround procedures:
 - Water refilling and cabin cleaning ($20-30\text{ minutes}$).
 The simulator respects these minimum turnaround bounds before re-dispatching trains as outbound services.
 \n
+### Track Geometry & Gradient Resistance
+Train tractive effort is influenced by ruling gradients and curvature:
+$$F_{resistance} = F_{rolling} + F_{gradient} + F_{curve} + F_{aero}$$
+- **Gradient Resistance**: $R_g = 9.81 \cdot M_{train} \cdot \sin(\theta)$.
+- **Curvature Resistance**: Empirical formula $R_c = 0.0004 \cdot D \cdot M_{train}$.
+These resistances are incorporated into section traversal time calculations.
+\n
