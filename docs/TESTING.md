@@ -53,3 +53,10 @@ Whenever `AIManager` model code or feature engineering logic is modified:
 ### Mock Environment for Headless Testing
 - To facilitate automated testing in headless CI environments without Streamlit, `tests/mocks.py` provides a stubbed progress bar and configuration dictionary matching `dashboard/ui.py`.
 \n
+## Chaos Engineering & Resiliency Test Suite
+
+In `tests/test_resilience.py`:
+- Injects random pseudo-failures: temporary platform closures, signal failures, delayed departures.
+- Confirms the AI controller maintains $> 70\%$ punctuality even under $30\%$ failure rates.
+- Validates that no unhandled deadlock states occur during chaotic operational conditions.
+\n
