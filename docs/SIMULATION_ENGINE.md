@@ -103,3 +103,9 @@ $$F_{resistance} = F_{rolling} + F_{gradient} + F_{curve} + F_{aero}$$
 - **Curvature Resistance**: Empirical formula $R_c = 0.0004 \cdot D \cdot M_{train}$.
 These resistances are incorporated into section traversal time calculations.
 \n
+### Emergency Braking Profile (EBP)
+When a track obstacle or signal violation is detected:
+- Emergency deceleration rate: $a_{emerg} = -1.2\text{ m/s}^2$.
+- Maximum stopping distance from $130\text{ km/h}$: $542\text{ meters}$.
+- Safety buffer margin: All clearance points enforce a mandatory $180\text{ m}$ overlap beyond the stop signal.
+\n
