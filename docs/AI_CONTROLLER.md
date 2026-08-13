@@ -79,3 +79,10 @@ Analysis of the trained `RandomForestRegressor` delay predictor reveals the foll
 4. `dwell_time`: $11.2\%$ (longer scheduled dwell offers greater delay absorption).
 5. `time_of_day`: $5.8\%$ (peak hour congestion factor).
 \n
+## Online Learning & Streaming Adaptation
+
+To allow the AI controller to adapt continuously during prolonged multi-day simulation runs:
+- Incremental learner option using `SGDRegressor` or `PassiveAggressiveRegressor`.
+- Sliding window memory of the most recent 500 completed dispatches.
+- Ensures the model automatically tunes itself to unexpected weather or infrastructure changes without full offline retraining.
+\n
