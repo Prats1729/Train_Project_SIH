@@ -139,3 +139,10 @@ Unnecessary train braking and restarting caused by signal stops wastes enormous 
 - **AI Speed Smoothing**: By predicting platform availability in advance, the AI controller commands a gentle coasting deceleration rather than a full stop-and-start.
 - **Energy Metric**: The simulator estimates traction kilowatt-hours saved by avoiding red signal halts.
 \n
+## Security & System Hardening Guidelines
+
+Even as a simulation application, standard software security principles apply:
+- **Input Validation**: Sidebar numerical inputs are strictly clamped to valid ranges ($10 \le N \le 200$) to prevent resource exhaustion attacks.
+- **Dependency Pinning**: All third-party packages in `requirements.txt` are pinned to secure, validated versions.
+- **Model Deserialization Safety**: Pre-trained model weights are verified for integrity before loading into memory.
+\n
