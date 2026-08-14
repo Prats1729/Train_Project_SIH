@@ -109,3 +109,9 @@ When a track obstacle or signal violation is detected:
 - Maximum stopping distance from $130\text{ km/h}$: $542\text{ meters}$.
 - Safety buffer margin: All clearance points enforce a mandatory $180\text{ m}$ overlap beyond the stop signal.
 \n
+### Station Track Topologies Supported
+The simulation supports three canonical station configurations:
+1. **Island Platform Layout**: Two platform faces served by a central island track.
+2. **Through Station with Passing Loops**: Two main lines with 2-4 auxiliary loop platforms for overtaking.
+3. **Stub Terminus Layout**: Buffer-stop tracks requiring full rake reversal.
+\n
