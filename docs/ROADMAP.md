@@ -40,3 +40,8 @@
 - [ ] Broadcast real-time GeoJSON train coordinates to an interactive Leaflet/Mapbox front-end.
 - [ ] Enable multiplayer dispatcher mode where human controllers compete against the AI agent.
 \n
+## 3D Digital Twin Visualization (Phase 6 Extension)
+- [ ] Integrate Three.js / WebGL 3D rendering pipeline for the station yard.
+- [ ] Animate procedural 3D train models along track curves according to SimPy event timestamps.
+- [ ] Realistic camera presets: Signal Tower perspective, Driver Cab view, Drone Overview.
+\n
