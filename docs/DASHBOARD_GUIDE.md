@@ -97,3 +97,8 @@ The dashboard provides a dedicated comparative tab:
 - Automatic Delta Calculation: Percentage improvement in punctuality and delay reduction.
 - One-click export of comparison tables to Microsoft Excel (`.xlsx`) format.
 \n
+### Interactive Plotly Chart Features
+- **Hover Tooltips**: Hovering over any train trajectory displays: Train ID, Priority Class, Entry Time, Dwell Platform, and Exit Delay.
+- **Box Zoom**: Enables drill-down into specific 2-hour peak congestion windows.
+- **Trace Toggling**: Click legends to isolate specific train categories (e.g., view only Freight or only Vande Bharat).
+\n
