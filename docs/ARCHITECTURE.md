@@ -146,3 +146,12 @@ Even as a simulation application, standard software security principles apply:
 - **Dependency Pinning**: All third-party packages in `requirements.txt` are pinned to secure, validated versions.
 - **Model Deserialization Safety**: Pre-trained model weights are verified for integrity before loading into memory.
 \n
+## Railway Terminology & Glossary
+
+- **Block Section**: A stretch of railway track between two signalling locations where only one train is permitted at a time.
+- **Headway**: The minimum time separation between two successive trains traveling on the same track.
+- **Dwell Time**: The duration a train remains stationary at a platform for passenger exchange.
+- **Interlocking**: An arrangement of signals and points interconnected so that their movements succeed each other in proper sequence to prevent collisions.
+- **Loop Line**: A track branching off the main through-line to allow trains to wait or overtake.
+- **Rake**: A coupled formation of railway passenger carriages or freight wagons.
+\n
