@@ -56,3 +56,11 @@ Before requesting review, ensure your branch satisfies:
 - **Documentation Branches**: `docs/<topic>` (e.g., `docs/kpi-equations`).
 - **Release Tags**: Semantic tags `vX.Y.Z` signed with git annotated tags.
 \n
+## Developer Quick Start FAQ
+
+**Q: Can I run the simulation without the Streamlit UI?**
+A: Yes! You can import `run_simulation` from `simulation.env` and execute it directly in Python scripts or Jupyter notebooks.
+
+**Q: How do I train custom models on my own dataset?**
+A: Place your CSV in `data/` and instantiate `AIManager` with your custom data path.
+\n
