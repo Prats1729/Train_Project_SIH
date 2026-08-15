@@ -104,3 +104,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Station track topologies and layout specifications in `docs/SIMULATION_ENGINE.md`.
 - 3D Digital Twin visualization vision in `docs/ROADMAP.md`.
 \n
+### Documentation (2026-08-15)
+- Added comprehensive railway operations glossary to `docs/ARCHITECTURE.md`.
+- Added developer quick start FAQ to `CONTRIBUTING.md`.
+\n
