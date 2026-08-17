@@ -86,3 +86,11 @@ To allow the AI controller to adapt continuously during prolonged multi-day simu
 - Sliding window memory of the most recent 500 completed dispatches.
 - Ensures the model automatically tunes itself to unexpected weather or infrastructure changes without full offline retraining.
 \n
+## Deep Learning Exploration: Multi-Layer Perceptron (MLP)
+
+Alongside Random Forests, we evaluated deep neural architectures:
+- **Architecture**: 3-layer MLP (Input: 12 -> Dense(64, ReLU) -> Dense(32, ReLU) -> Dense(1)).
+- **Optimizer**: Adam ($	ext{lr} = 0.001$).
+- **Loss Function**: Mean Squared Error with L2 weight regularization ($\lambda = 0.0001$).
+- **Findings**: Random Forests offered comparable MAE with $10	imes$ faster training and zero GPU requirement.
+\n
