@@ -108,3 +108,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added comprehensive railway operations glossary to `docs/ARCHITECTURE.md`.
 - Added developer quick start FAQ to `CONTRIBUTING.md`.
 \n
+### Documentation (2026-08-17)
+- Documented maintenance engineering blocks in `docs/SIMULATION_ENGINE.md`.
+- Added Multi-Layer Perceptron benchmarking analysis to `docs/AI_CONTROLLER.md`.
+- Documented accessibility shortcuts in `docs/DASHBOARD_GUIDE.md`.
+\n
