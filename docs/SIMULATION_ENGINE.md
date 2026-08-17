@@ -115,3 +115,9 @@ The simulation supports three canonical station configurations:
 2. **Through Station with Passing Loops**: Two main lines with 2-4 auxiliary loop platforms for overtaking.
 3. **Stub Terminus Layout**: Buffer-stop tracks requiring full rake reversal.
 \n
+### Maintenance Block Windows (Engineering Blocks)
+Railway corridors require scheduled track maintenance:
+- **Shadow Block**: Routine inspections scheduled during natural gaps in the timetable.
+- **Full Track Block**: One track section is taken out of service for 2 hours for ballast tamping.
+- **AI Rerouting Response**: The AI controller dynamically routes bidirectional traffic over the remaining track line.
+\n
