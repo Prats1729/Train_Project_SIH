@@ -102,3 +102,8 @@ The dashboard provides a dedicated comparative tab:
 - **Box Zoom**: Enables drill-down into specific 2-hour peak congestion windows.
 - **Trace Toggling**: Click legends to isolate specific train categories (e.g., view only Freight or only Vande Bharat).
 \n
+### Keyboard Shortcuts & Accessibility
+- `R`: Immediately reload application and re-run active simulation.
+- `C`: Clear internal Streamlit data caches.
+- High-contrast color scales suitable for colorblind dispatchers (Plotly `Viridis` and `Cividis` palettes).
+\n
