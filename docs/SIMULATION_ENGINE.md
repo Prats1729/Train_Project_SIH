@@ -121,3 +121,9 @@ Railway corridors require scheduled track maintenance:
 - **Full Track Block**: One track section is taken out of service for 2 hours for ballast tamping.
 - **AI Rerouting Response**: The AI controller dynamically routes bidirectional traffic over the remaining track line.
 \n
+### Locomotive Pilot Duty Hour Constraints
+Train operations are bounded by statutory maximum continuous working hours:
+- Maximum Continuous Duty: 8 hours without relief.
+- Reliever Crew Handover: At crew change stations, minimum dwell time is enforced at $15\text{ minutes}$.
+- If a train accumulates severe delays, crew hours expire, triggering crew relief replacement delay.
+\n
