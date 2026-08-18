@@ -155,3 +155,9 @@ Even as a simulation application, standard software security principles apply:
 - **Loop Line**: A track branching off the main through-line to allow trains to wait or overtake.
 - **Rake**: A coupled formation of railway passenger carriages or freight wagons.
 \n
+## Environmental & Weather Perturbation Modeling
+
+Adverse weather impacts railway braking distances and section speeds:
+- **Monsoon Rain**: Reduces wheel-rail adhesion coefficient ($\mu$ drops from $0.35$ to $0.18$), lengthening braking distance by $30\%$.
+- **Winter Fog**: Visibility drops $< 200\text{ m}$, triggering mandatory fog signal device rules and speed caps of $60\text{ km/h}$.
+\n
