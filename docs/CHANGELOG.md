@@ -113,3 +113,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Multi-Layer Perceptron benchmarking analysis to `docs/AI_CONTROLLER.md`.
 - Documented accessibility shortcuts in `docs/DASHBOARD_GUIDE.md`.
 \n
+### Documentation (2026-08-18)
+- Documented monsoon and fog perturbation models in `docs/ARCHITECTURE.md`.
+- Added locomotive pilot duty constraints to `docs/SIMULATION_ENGINE.md`.
+- Formulated reinforcement learning reward function in `docs/AI_CONTROLLER.md`.
+- Documented benchmark regression test suite in `docs/TESTING.md`.
+\n
