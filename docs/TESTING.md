@@ -60,3 +60,13 @@ In `tests/test_resilience.py`:
 - Confirms the AI controller maintains $> 70\%$ punctuality even under $30\%$ failure rates.
 - Validates that no unhandled deadlock states occur during chaotic operational conditions.
 \n
+## Performance Benchmark Suite
+
+Run automated execution benchmarks:
+```bash
+python -m pytest tests/test_benchmarks.py --benchmark-only
+```
+Ensures:
+- 100-train simulation executes in under $2.0\text{ seconds}$.
+- Peak memory does not regress beyond $150\text{ MB}$.
+\n
