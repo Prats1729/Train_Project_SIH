@@ -107,3 +107,7 @@ The dashboard provides a dedicated comparative tab:
 - `C`: Clear internal Streamlit data caches.
 - High-contrast color scales suitable for colorblind dispatchers (Plotly `Viridis` and `Cividis` palettes).
 \n
+### Memory Management & Resource Garbage Collection
+- For runs exceeding 500 train events, manual invocation of `gc.collect()` prevents Streamlit heap inflation.
+- DataFrames storing raw event logs are pruned to essential columns before serialization.
+\n
