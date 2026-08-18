@@ -94,3 +94,14 @@ Alongside Random Forests, we evaluated deep neural architectures:
 - **Loss Function**: Mean Squared Error with L2 weight regularization ($\lambda = 0.0001$).
 - **Findings**: Random Forests offered comparable MAE with $10	imes$ faster training and zero GPU requirement.
 \n
+## Reinforcement Learning Reward Function Formulation
+
+For future PPO/DQN integration, the reward function $R_t$ at dispatch step $t$ is formulated as:
+$$R_t = - \left( w_1 \cdot D_{delay} + w_2 \cdot \Delta E_{energy} + w_3 \cdot C_{conflict} \right) + w_4 \cdot \text{Punctual}$$
+
+Where:
+- $w_1 = 1.0$: Penalty for delay minutes.
+- $w_2 = 0.2$: Penalty for unnecessary braking/acceleration.
+- $w_3 = 5.0$: Severe penalty for platform allocation conflicts.
+- $w_4 = 10.0$: Bonus for on-time arrival ($\le 5$ min).
+\n
