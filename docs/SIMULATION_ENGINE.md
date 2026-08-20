@@ -127,3 +127,8 @@ Train operations are bounded by statutory maximum continuous working hours:
 - Reliever Crew Handover: At crew change stations, minimum dwell time is enforced at $15\text{ minutes}$.
 - If a train accumulates severe delays, crew hours expire, triggering crew relief replacement delay.
 \n
+### Siding Capacity & Yard Operations
+- Sidings have maximum length constraints ($750\text{ meters}$ standard full rake length).
+- Trains exceeding siding length cannot be diverted into loop lines for overtaking.
+- The simulator tracks train physical length and rejects invalid siding diversions.
+\n
