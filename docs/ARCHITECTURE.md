@@ -161,3 +161,10 @@ Adverse weather impacts railway braking distances and section speeds:
 - **Monsoon Rain**: Reduces wheel-rail adhesion coefficient ($\mu$ drops from $0.35$ to $0.18$), lengthening braking distance by $30\%$.
 - **Winter Fog**: Visibility drops $< 200\text{ m}$, triggering mandatory fog signal device rules and speed caps of $60\text{ km/h}$.
 \n
+## Mixed-Traffic Operations (Freight vs Passenger)
+
+Dedicated passenger corridors face intense scheduling conflicts when sharing tracks with heavy freight:
+- **Freight Characteristics**: High tonnage (3,000 - 5,000 tonnes), slow acceleration, lower priority.
+- **Passenger Characteristics**: High speed, strict punctuality targets.
+- **AI Balancing Act**: Rather than holding freight indefinitely in loops (destroying freight turnaround), the AI dispatcher spots small timetable windows to advance freight by 1-2 blocks without impeding oncoming express trains.
+\n
