@@ -105,3 +105,12 @@ Where:
 - $w_3 = 5.0$: Severe penalty for platform allocation conflicts.
 - $w_4 = 10.0$: Bonus for on-time arrival ($\le 5$ min).
 \n
+## Multi-Objective Optimization & Pareto Frontiers
+
+Train traffic dispatching involves conflicting objectives:
+1. Minimizing total passenger delay.
+2. Maximizing overall section throughput.
+3. Minimizing electric traction energy expenditure.
+
+The AI controller operates along the Pareto-optimal frontier, allowing operators to weight punctuality vs energy via policy sliders.
+\n
