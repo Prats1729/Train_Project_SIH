@@ -119,3 +119,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Formulated reinforcement learning reward function in `docs/AI_CONTROLLER.md`.
 - Documented benchmark regression test suite in `docs/TESTING.md`.
 \n
+### Documentation (2026-08-20)
+- Documented mixed-traffic freight balancing in `docs/ARCHITECTURE.md`.
+- Documented siding length constraints in `docs/SIMULATION_ENGINE.md`.
+- Added multi-objective Pareto analysis in `docs/AI_CONTROLLER.md`.
+- Documented Kubernetes deployment architecture in `docs/ROADMAP.md`.
+\n
