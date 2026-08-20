@@ -45,3 +45,8 @@
 - [ ] Animate procedural 3D train models along track curves according to SimPy event timestamps.
 - [ ] Realistic camera presets: Signal Tower perspective, Driver Cab view, Drone Overview.
 \n
+## Cloud Native Deployment & Kubernetes Autoscaling
+- [ ] Helm charts for deploying the simulation service on AWS EKS / Google GKE.
+- [ ] Horizontal Pod Autoscaler (HPA) scaling worker pods based on incoming simulation requests.
+- [ ] Redis caching layer for shared model weights and historical simulation results.
+\n
