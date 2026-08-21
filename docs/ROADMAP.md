@@ -50,3 +50,7 @@
 - [ ] Horizontal Pod Autoscaler (HPA) scaling worker pods based on incoming simulation requests.
 - [ ] Redis caching layer for shared model weights and historical simulation results.
 \n
+## Augmented Reality (AR) Cab Signalling Vision
+- [ ] Real-time head-up display (HUD) concept for train loco pilots.
+- [ ] Displays virtual braking curves, countdown to next clear signal aspect, and recommended target speeds directly in line of sight.
+\n
