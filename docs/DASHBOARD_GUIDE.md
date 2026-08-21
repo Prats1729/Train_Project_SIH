@@ -111,3 +111,7 @@ The dashboard provides a dedicated comparative tab:
 - For runs exceeding 500 train events, manual invocation of `gc.collect()` prevents Streamlit heap inflation.
 - DataFrames storing raw event logs are pruned to essential columns before serialization.
 \n
+### SHAP Explanation Panel in Dashboard
+- In the Decision Logs table, clicking on any allocation row expands a SHAP breakdown widget.
+- Visually highlights top 3 driving features behind the AI's routing decision.
+\n
