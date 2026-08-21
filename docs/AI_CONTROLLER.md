@@ -114,3 +114,9 @@ Train traffic dispatching involves conflicting objectives:
 
 The AI controller operates along the Pareto-optimal frontier, allowing operators to weight punctuality vs energy via policy sliders.
 \n
+## Explainable AI (XAI) & Dispatcher Trust
+
+In safety-critical rail systems, controllers will not follow "black-box" recommendations:
+- **SHAP (SHapley Additive exPlanations)**: Generates feature contribution waterfalls for every platform recommendation.
+- **Dispatcher Insight**: Shows human operators exactly why Platform 2 was preferred over Platform 1 (e.g., "+3.2 min saved due to avoided dwell conflict").
+\n
