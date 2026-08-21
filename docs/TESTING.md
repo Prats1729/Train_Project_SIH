@@ -70,3 +70,8 @@ Ensures:
 - 100-train simulation executes in under $2.0\text{ seconds}$.
 - Peak memory does not regress beyond $150\text{ MB}$.
 \n
+### Level Crossing & Power Fault Tests
+- In `tests/test_infrastucture_faults.py`:
+  - Simulates 10-minute LC gate closure delay and verifies speed reduction logic.
+  - Verifies train spacing prevents simultaneous peak power draw overloads.
+\n
