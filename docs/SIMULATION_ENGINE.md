@@ -132,3 +132,9 @@ Train operations are bounded by statutory maximum continuous working hours:
 - Trains exceeding siding length cannot be diverted into loop lines for overtaking.
 - The simulator tracks train physical length and rejects invalid siding diversions.
 \n
+### Traction Power Supply & Substation Limits
+Electric traction relies on $25\text{ kV}$ AC overhead equipment (OHE):
+- Traction substations spaced every 40-50 km have peak power capacity ($20-30\text{ MVA}$).
+- If more than 4 heavy freight trains accelerate simultaneously within the same feeding section, voltage drop occurs.
+- The simulator flags peak electrical load intervals.
+\n
