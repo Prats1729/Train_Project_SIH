@@ -168,3 +168,9 @@ Dedicated passenger corridors face intense scheduling conflicts when sharing tra
 - **Passenger Characteristics**: High speed, strict punctuality targets.
 - **AI Balancing Act**: Rather than holding freight indefinitely in loops (destroying freight turnaround), the AI dispatcher spots small timetable windows to advance freight by 1-2 blocks without impeding oncoming express trains.
 \n
+## Level Crossing (LC) Gates & Road Traffic Interference
+
+Manned and unmanned level crossings introduce external stochastic disturbances:
+- **Gate Closure Envelopes**: Interlocked LC gates must close at least 3 minutes before train arrival.
+- **Road Congestion Delays**: Occasional gate interlocking failures force trains to slow to walking speed ($10\text{ km/h}$) and whistle continuously before traversing the crossing.
+\n
