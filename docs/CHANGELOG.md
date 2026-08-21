@@ -125,3 +125,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added multi-objective Pareto analysis in `docs/AI_CONTROLLER.md`.
 - Documented Kubernetes deployment architecture in `docs/ROADMAP.md`.
 \n
+## [1.1.0] - 2026-08-21
+### Added
+- Level crossing gate models and traction power substation load analysis in `docs/ARCHITECTURE.md`.
+- Explainable AI (XAI) with SHAP feature contribution waterfalls in `docs/AI_CONTROLLER.md` and `docs/DASHBOARD_GUIDE.md`.
+- Infrastructure fault injection test suite in `docs/TESTING.md`.
+- AR Cab Signalling conceptual roadmap in `docs/ROADMAP.md`.
+\n
