@@ -132,3 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Infrastructure fault injection test suite in `docs/TESTING.md`.
 - AR Cab Signalling conceptual roadmap in `docs/ROADMAP.md`.
 \n
+### Documentation (2026-08-22)
+- Documented CENELEC SIL-4 fail-safe interlocking principles in `docs/ARCHITECTURE.md`.
+- Added wayside Hot Axle Box Detection mechanics in `docs/SIMULATION_ENGINE.md`.
+\n
