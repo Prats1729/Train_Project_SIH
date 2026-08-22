@@ -174,3 +174,9 @@ Manned and unmanned level crossings introduce external stochastic disturbances:
 - **Gate Closure Envelopes**: Interlocked LC gates must close at least 3 minutes before train arrival.
 - **Road Congestion Delays**: Occasional gate interlocking failures force trains to slow to walking speed ($10\text{ km/h}$) and whistle continuously before traversing the crossing.
 \n
+## Fail-Safe Interlocking & CENELEC SIL-4 Standards
+
+Railway signaling adheres to strict Safety Integrity Level 4 (SIL-4) requirements:
+- **Fail-Safe Principle**: Any hardware or software failure must revert the system to a restrictive state (Red signal aspect).
+- **Independent Safety Watchdog**: The AI controller output is mediated by a deterministic SIL-4 safety verification layer that independently checks physical clearances before setting points.
+\n
