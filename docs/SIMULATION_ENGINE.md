@@ -138,3 +138,7 @@ Electric traction relies on $25\text{ kV}$ AC overhead equipment (OHE):
 - If more than 4 heavy freight trains accelerate simultaneously within the same feeding section, voltage drop occurs.
 - The simulator flags peak electrical load intervals.
 \n
+### Wayside Hot Axle Box Detection (HABD)
+- Emulates infrared wayside detectors scanning wheel bearing temperatures.
+- Simulates sudden hot box alarms, triggering immediate emergency brake application and dispatch of an inspection team.
+\n
