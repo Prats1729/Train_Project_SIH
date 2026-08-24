@@ -120,3 +120,11 @@ In safety-critical rail systems, controllers will not follow "black-box" recomme
 - **SHAP (SHapley Additive exPlanations)**: Generates feature contribution waterfalls for every platform recommendation.
 - **Dispatcher Insight**: Shows human operators exactly why Platform 2 was preferred over Platform 1 (e.g., "+3.2 min saved due to avoided dwell conflict").
 \n
+## Quantile Regression & Prediction Uncertainty
+
+Rather than just predicting a point estimate $\hat{y}$, the AI controller computes prediction intervals:
+- **10th Percentile ($q_{0.10}$)**: Optimistic arrival time.
+- **50th Percentile ($q_{0.50}$)**: Median expected arrival time.
+- **90th Percentile ($q_{0.90}$)**: Pessimistic arrival time.
+If the prediction interval $(q_{0.90} - q_{0.10}) > 15\text{ min}$, the controller increases the safety buffer for platform assignment.
+\n
