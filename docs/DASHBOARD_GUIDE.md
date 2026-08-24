@@ -115,3 +115,7 @@ The dashboard provides a dedicated comparative tab:
 - In the Decision Logs table, clicking on any allocation row expands a SHAP breakdown widget.
 - Visually highlights top 3 driving features behind the AI's routing decision.
 \n
+### Prediction Uncertainty Bands in Gantt Chart
+- Shaded ribbons around train trajectory lines represent the 10th-90th percentile delay confidence interval.
+- Allows dispatchers to visually spot high-uncertainty operations before conflicts develop.
+\n
