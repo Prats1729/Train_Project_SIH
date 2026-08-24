@@ -180,3 +180,9 @@ Railway signaling adheres to strict Safety Integrity Level 4 (SIL-4) requirement
 - **Fail-Safe Principle**: Any hardware or software failure must revert the system to a restrictive state (Red signal aspect).
 - **Independent Safety Watchdog**: The AI controller output is mediated by a deterministic SIL-4 safety verification layer that independently checks physical clearances before setting points.
 \n
+## Telecommunications & GSM-R / LTE-R Latency
+
+Train-to-ground data transmission introduces real-world communication delays:
+- **GSM-R Latency**: $300-500\text{ ms}$ round-trip time for message transmission.
+- **Packet Loss Handling**: Re-transmission timeouts and checksum validations prevent corrupted dispatch commands from reaching train onboard computers.
+\n
