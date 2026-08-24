@@ -136,3 +136,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented CENELEC SIL-4 fail-safe interlocking principles in `docs/ARCHITECTURE.md`.
 - Added wayside Hot Axle Box Detection mechanics in `docs/SIMULATION_ENGINE.md`.
 \n
+### Documentation (2026-08-24)
+- Documented GSM-R / LTE-R network latencies in `docs/ARCHITECTURE.md`.
+- Documented quantile regression uncertainty modeling in `docs/AI_CONTROLLER.md`.
+- Added confidence ribbon chart features to `docs/DASHBOARD_GUIDE.md`.
+\n
