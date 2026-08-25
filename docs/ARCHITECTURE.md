@@ -186,3 +186,9 @@ Train-to-ground data transmission introduces real-world communication delays:
 - **GSM-R Latency**: $300-500\text{ ms}$ round-trip time for message transmission.
 - **Packet Loss Handling**: Re-transmission timeouts and checksum validations prevent corrupted dispatch commands from reaching train onboard computers.
 \n
+## Multi-Agent Boundary Handover Protocol
+
+At division boundary handovers between independent railway zones:
+- Adjacent divisions exchange future arrival projections 60 minutes in advance.
+- Cooperative auctioning protocol resolves inter-zonal conflicts without centralized single-point-of-failure bottlenecks.
+\n
