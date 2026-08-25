@@ -142,3 +142,7 @@ Electric traction relies on $25\text{ kV}$ AC overhead equipment (OHE):
 - Emulates infrared wayside detectors scanning wheel bearing temperatures.
 - Simulates sudden hot box alarms, triggering immediate emergency brake application and dispatch of an inspection team.
 \n
+### Shunting & Yard Sorting Operations
+- Models flat yard and hump yard wagon classification.
+- Shunting operations move at restricted speeds ($15\text{ km/h}$) and cannot foul active running lines during passenger peak windows.
+\n
