@@ -75,3 +75,8 @@ Ensures:
   - Simulates 10-minute LC gate closure delay and verifies speed reduction logic.
   - Verifies train spacing prevents simultaneous peak power draw overloads.
 \n
+### Boundary Handover Integration Tests
+- In `tests/test_boundary_handover.py`:
+  - Simulates 30 trains crossing an inter-zonal boundary under varying delay profiles.
+  - Verifies zero boundary deadlock and preserves schedule continuity.
+\n
