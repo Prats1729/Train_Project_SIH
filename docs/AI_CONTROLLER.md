@@ -128,3 +128,9 @@ Rather than just predicting a point estimate $\hat{y}$, the AI controller comput
 - **90th Percentile ($q_{0.90}$)**: Pessimistic arrival time.
 If the prediction interval $(q_{0.90} - q_{0.10}) > 15\text{ min}$, the controller increases the safety buffer for platform assignment.
 \n
+## Active Learning & Rare Event Mining
+
+Standard simulation runs rarely encounter extreme multi-train gridlocks:
+- An active learning query strategy identifies simulation runs with highest prediction entropy.
+- These high-uncertainty edge cases are synthesized into specialized training mini-batches to reinforce AI recovery policies.
+\n
