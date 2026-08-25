@@ -141,3 +141,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented quantile regression uncertainty modeling in `docs/AI_CONTROLLER.md`.
 - Added confidence ribbon chart features to `docs/DASHBOARD_GUIDE.md`.
 \n
+### Documentation (2026-08-25)
+- Documented inter-zonal boundary handovers in `docs/ARCHITECTURE.md`.
+- Documented freight yard shunting in `docs/SIMULATION_ENGINE.md`.
+- Added active learning rare event mining in `docs/AI_CONTROLLER.md`.
+- Added boundary handover test suite in `docs/TESTING.md`.
+\n
