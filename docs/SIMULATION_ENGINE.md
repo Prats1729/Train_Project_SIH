@@ -146,3 +146,7 @@ Electric traction relies on $25\text{ kV}$ AC overhead equipment (OHE):
 - Models flat yard and hump yard wagon classification.
 - Shunting operations move at restricted speeds ($15\text{ km/h}$) and cannot foul active running lines during passenger peak windows.
 \n
+### Regenerative Braking Energy Exchange
+- Three-phase AC traction locomotives feed electrical energy back into the OHE during service braking.
+- If an adjacent train is accelerating within the same feeding substation section, it absorbs this regenerated power directly, reducing net grid draw by up to $22\%$.
+\n
