@@ -192,3 +192,9 @@ At division boundary handovers between independent railway zones:
 - Adjacent divisions exchange future arrival projections 60 minutes in advance.
 - Cooperative auctioning protocol resolves inter-zonal conflicts without centralized single-point-of-failure bottlenecks.
 \n
+## Platform Screen Door (PSD) & Dwell Synchronization
+
+At modern high-density metro and semi-high-speed terminals:
+- Train stopping accuracy within $\pm 0.3\text{ m}$ is required for PSD alignment.
+- Door cycle times ($t_{open} + t_{close} = 7\text{ s}$) are explicitly incorporated into minimum station dwell constraints.
+\n
