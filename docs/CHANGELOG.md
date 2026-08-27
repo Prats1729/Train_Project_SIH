@@ -147,3 +147,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added active learning rare event mining in `docs/AI_CONTROLLER.md`.
 - Added boundary handover test suite in `docs/TESTING.md`.
 \n
+### Documentation (2026-08-27)
+- Added platform screen door synchronization mechanics in `docs/ARCHITECTURE.md`.
+- Documented regenerative braking energy transfer in `docs/SIMULATION_ENGINE.md`.
+\n
