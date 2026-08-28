@@ -134,3 +134,11 @@ Standard simulation runs rarely encounter extreme multi-train gridlocks:
 - An active learning query strategy identifies simulation runs with highest prediction entropy.
 - These high-uncertainty edge cases are synthesized into specialized training mini-batches to reinforce AI recovery policies.
 \n
+## Counterfactual Policy Evaluation
+
+To evaluate whether human overrides improved or degraded section throughput:
+- The system runs twin "what-if" simulation rollouts from the override timestamp:
+  1. Branch A: Continued with AI recommendation.
+  2. Branch B: Followed human override.
+- Quantifies exact punctuality delta achieved by the intervention.
+\n
