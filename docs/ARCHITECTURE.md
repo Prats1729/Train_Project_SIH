@@ -198,3 +198,10 @@ At modern high-density metro and semi-high-speed terminals:
 - Train stopping accuracy within $\pm 0.3\text{ m}$ is required for PSD alignment.
 - Door cycle times ($t_{open} + t_{close} = 7\text{ s}$) are explicitly incorporated into minimum station dwell constraints.
 \n
+## Human-in-the-Loop (HITL) Dispatcher Authority
+
+In mission-critical railway operations, human controllers retain final executive authority:
+- **Override Trigger**: The human operator can override any AI recommendation with a single click.
+- **Audit Logging**: Every override event records operator ID, timestamp, original AI recommendation, manual action taken, and operator rationale code.
+- **Feedback Learning**: Overridden decisions are flagged for model fine-tuning.
+\n
