@@ -119,3 +119,7 @@ The dashboard provides a dedicated comparative tab:
 - Shaded ribbons around train trajectory lines represent the 10th-90th percentile delay confidence interval.
 - Allows dispatchers to visually spot high-uncertainty operations before conflicts develop.
 \n
+### Manual Override Controls in Dashboard
+- An interactive dispatch modal allows live manual platform reassignment during step-by-step simulation replay.
+- Displays immediate conflict alerts if the selected platform is currently occupied.
+\n
