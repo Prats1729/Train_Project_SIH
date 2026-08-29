@@ -156,3 +156,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented counterfactual evaluation framework in `docs/AI_CONTROLLER.md`.
 - Added manual override controls guide to `docs/DASHBOARD_GUIDE.md`.
 \n
+### Documentation (2026-08-29)
+- Added OD demand timetable synthesis roadmap to `docs/ROADMAP.md`.
+\n
