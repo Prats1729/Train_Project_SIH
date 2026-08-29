@@ -54,3 +54,7 @@
 - [ ] Real-time head-up display (HUD) concept for train loco pilots.
 - [ ] Displays virtual braking curves, countdown to next clear signal aspect, and recommended target speeds directly in line of sight.
 \n
+## Automated Timetable Generation from Origin-Destination Demand (Phase 7)
+- [ ] Ingest passenger origin-destination (OD) travel matrices.
+- [ ] Formulate mixed-integer linear program (MILP) to synthesize baseline schedules maximizing passenger connections while respecting track headways.
+\n
