@@ -150,3 +150,14 @@ Electric traction relies on $25\text{ kV}$ AC overhead equipment (OHE):
 - Three-phase AC traction locomotives feed electrical energy back into the OHE during service braking.
 - If an adjacent train is accelerating within the same feeding substation section, it absorbs this regenerated power directly, reducing net grid draw by up to $22\%$.
 \n
+## Complete Simulation Engine API Reference
+
+### `run_simulation(config, progress_bar)`
+- **Parameters**:
+  - `config` (*dict*): Dictionary specifying simulation parameters (`num_trains`, `platforms_b`, `is_ai_controlled`, `delay_prob`, `max_delay_minutes`, `disaster_mode`).
+  - `progress_bar` (*streamlit.progress or None*): Streamlit progress instance for live updates.
+- **Returns**:
+  - `log_df` (*pandas.DataFrame*): Comprehensive log of all train transitions.
+  - `alerts` (*list*): Incident warnings and delay alerts generated during execution.
+  - `controller` (*Controller*): Controller instance containing decision audit history.
+\n
