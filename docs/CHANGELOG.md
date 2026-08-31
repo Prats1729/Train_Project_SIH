@@ -159,3 +159,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Documentation (2026-08-29)
 - Added OD demand timetable synthesis roadmap to `docs/ROADMAP.md`.
 \n
+## [1.2.0] - 2026-08-31
+### Added
+- Complete system performance and scalability benchmarks in `docs/ARCHITECTURE.md`.
+- Comprehensive Simulation Engine API reference in `docs/SIMULATION_ENGINE.md`.
+- Production model deployment checklist in `docs/AI_CONTROLLER.md`.
+- Final end-to-end testing verification sign-off in `docs/TESTING.md`.
+- Full project documentation suite finalized across July and August 2026.
+\n
